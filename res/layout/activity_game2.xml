@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bh"
+    tools:context=".Game2">
+
+    <Button
+        android:id="@+id/speak2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="400dp"
+        android:onClick="Button2Clicked"
+        android:backgroundTint="@color/Coral"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/speak3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="472dp"
+        android:onClick="Button3Clicked"
+        android:backgroundTint="@color/Coral"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/speak5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="472dp"
+        android:onClick="Button4Clicked"
+        android:backgroundTint="@color/Coral"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/speak4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="400dp"
+        android:onClick="Button1Clicked"
+        android:backgroundTint="@color/Coral"
+        android:text="6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="14dp"
+        android:text="GAME 2"
+        android:textSize="26dp" />
+
+    <com.example.uas.faceview2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="-81dp"
+        android:layout_marginBottom="-95dp" />
+
+    <TextView
+        android:id="@+id/input"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="251dp"
+        android:layout_marginEnd="3dp"
+        android:text="Ada Berapa Banyak Lingkaran ?"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="335dp"
+        android:backgroundTint="@color/Coral"
+        android:text="SPEAK" />
+
+
+</RelativeLayout>

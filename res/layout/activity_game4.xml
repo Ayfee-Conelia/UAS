@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    tools:context=".Game4">
+
+    <Button
+        android:id="@+id/speak2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="@color/Coral"
+        android:onClick="Button2Clicked"
+        android:text="Mixing Red and blue" />
+
+    <Button
+        android:id="@+id/speak3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/Coral"
+        android:onClick="Button3Clicked"
+        android:text="Mixing Red and yellow" />
+
+    <Button
+        android:id="@+id/speak5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@color/Coral"
+        android:onClick="Button4Clicked"
+        android:text="Mixing blue and yellow" />
+
+    <Button
+        android:id="@+id/speak4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="@color/Coral"
+        android:onClick="Button1Clicked"
+        android:text="Mixing green and blue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="14dp"
+        android:text="GAME 2"
+        android:textSize="26dp" />
+
+
+    <TextView
+        android:id="@+id/input"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="-9dp"
+        android:text="How to make a Violet color ?"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="133dp"
+        android:backgroundTint="@color/Coral"
+        android:text="SPEAK" />
+
+
+</RelativeLayout>
